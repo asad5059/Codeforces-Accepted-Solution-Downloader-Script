@@ -50,5 +50,5 @@ for s in submissions:
         with open(filename, "w") as f:
             f.write(code)
         print(f"Downloaded {filename}")
-    except AttributeError:
+    except AttributeError: 
         print(f"Skipping submission {s['id']} (no code found)")
